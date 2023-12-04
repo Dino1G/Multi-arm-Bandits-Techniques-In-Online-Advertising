@@ -1,5 +1,8 @@
 # Multi-arm Bandits Techniques In Online Advertising
 
+## Authors
+- Yi-Chun Huang
+  
 ## Abstract
 This research paper explores the application of multi-armed bandit algorithms in optimizing content recommendations on online media platforms. Our focus is on dynamic selection and adjustment of content recommendations to maximize advertising revenue. We compare different bandit algorithms with random approaches, emphasizing the effectiveness of the ϵ-greedy algorithm.
 
@@ -16,15 +19,13 @@ Our experimental analysis reveals that the ϵ-greedy algorithm outperforms other
 Below are the key visualizations from our study:
 
 #### Figure 1: Selection Frequencies of Different Arms
-![Selection Frequencies](images/figure1.png)
+![Selection Frequencies](images/arm.png)
 
 #### Figure 2: Regret of Different Algorithms
-![Regret Comparison](images/figure2.png)
+![Regret Comparison](images/regret.png)
 
 #### Figure 3: Total Reward by Algorithms
-![Total Reward](images/figure3.png)
-
-*Note: Replace `path/to/figureX.png` with the actual paths to your plot images stored in your repository or hosted online.*
+![Total Reward](images/reward.png)
 
 ## Discussion
 We discuss the performance of various algorithms, focusing on the balance between exploration and exploitation, and the implications of our findings in real-world recommendation systems.
@@ -36,11 +37,18 @@ The ϵ-greedy algorithm demonstrates superior optimization capabilities in our s
 Special thanks to the University of California, Irvine (UCI) for providing the dataset and to Lancaster University's SCC462 course for their support.
 
 ## References
-[1] R. C. Gatti, “A multi-armed bandit algorithm speeds up the evolution of cooperation,” Ecological Modelling, 2021.
-2. N. Silva et al., “Multi-armed bandits in recommendation systems: A survey of the state-of-the-art,” Expert Systems with Applications, 2022.
-3. D. I. Mattos et al., “Multi-armed bandits in the wild: Pitfalls and strategies in online experiments,” Information and Software Technology, 2019.
-4. C. Yan et al., “Dynamic clustering based contextual combinatorial multi-armed bandit for online recommendation,” Knowledge-Based Systems, 2022.
-5. C. O. Sakar et al., “Real-time prediction of online shoppers’ purchasing intention using multilayer perceptron and LSTM recurrent neural networks,” Neural Computing and Applications, 2019.
-6. N. Radovic and M. Erceg, “Hardware implementation of the upper confidence-bound algorithm for reinforcement learning,” Computers & Electrical Engineering, 2021.
-7. M. Kamiura and K. Sano, “Optimism in the face of uncertainty supported by a statistically-designed multi-armed bandit algorithm,” Biosystems, 2017.
-8. A. Dzhoha and I. Rozora, “Multi-armed bandit problem with online clustering as side information,” Journal of Computational and Applied Mathematics, 2023.
+<a id="1">[1]</a> R. C. Gatti, “A multi-armed bandit algorithm speeds up the evolution of cooperation,” Ecological Modelling, 2021.
+
+<a id="1">[2]</a> N. Silva et al., “Multi-armed bandits in recommendation systems: A survey of the state-of-the-art,” Expert Systems with Applications, 2022.
+
+<a id="1">[3]</a> D. I. Mattos et al., “Multi-armed bandits in the wild: Pitfalls and strategies in online experiments,” Information and Software Technology, 2019.
+
+<a id="1">[4]</a> C. Yan et al., “Dynamic clustering based contextual combinatorial multi-armed bandit for online recommendation,” Knowledge-Based Systems, 2022.
+
+<a id="1">[5]</a> C. O. Sakar et al., “Real-time prediction of online shoppers’ purchasing intention using multilayer perceptron and LSTM recurrent neural networks,” Neural Computing and Applications, 2019.
+
+<a id="1">[6]</a> N. Radovic and M. Erceg, “Hardware implementation of the upper confidence-bound algorithm for reinforcement learning,” Computers & Electrical Engineering, 2021.
+
+<a id="1">[7]</a> M. Kamiura and K. Sano, “Optimism in the face of uncertainty supported by a statistically-designed multi-armed bandit algorithm,” Biosystems, 2017.
+
+<a id="1">[8]</a> A. Dzhoha and I. Rozora, “Multi-armed bandit problem with online clustering as side information,” Journal of Computational and Applied Mathematics, 2023.
