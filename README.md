@@ -33,9 +33,6 @@ We discuss the performance of various algorithms, focusing on the balance betwee
 ## Conclusion
 The ϵ-greedy algorithm demonstrates superior optimization capabilities in our study, highlighting its potential in online advertising strategies.
 
-## Acknowledgements
-Special thanks to the University of California, Irvine (UCI) for providing the dataset and to Lancaster University's SCC462 course for their support.
-
 ## References
 <a id="1">[1]</a> R. C. Gatti, “A multi-armed bandit algorithm speeds up the evolution of cooperation,” Ecological Modelling, 2021.
 
